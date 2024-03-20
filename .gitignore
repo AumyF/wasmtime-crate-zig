@@ -1,2 +1,4 @@
 /target
 /hello.wasm
+/zig-cache
+/zig-out

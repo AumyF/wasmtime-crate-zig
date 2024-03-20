@@ -1,0 +1,11 @@
+.{
+  .name = "Zig wasm hello",
+  .version = "0.0.1",
+
+  .dependencies = .{
+    .zbor = .{
+            .url = "https://github.com/r4gus/zbor/archive/master.tar.gz",
+            .hash = "12207d77e1f12b3b71ac4b1dbd42f7b0a75a9f491b83e5b4ac96fddf6a110ffe9ef6",
+        }
+  }
+}

@@ -20,7 +20,7 @@ fn main() -> Result<()> {
     // `Store` has a type parameter to store host-specific data, which in
     // this case we're using `4` for.
     let mut store = Store::new(&engine, wasi);
-    let module = Module::from_file(&engine, "hello.wasm")?;
+    let module = Module::from_file(&engine, "zig-out/lib/hello.wasm")?;
     linker.module(&mut store, "", &module)?;
 
     linker
